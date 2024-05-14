@@ -1,0 +1,62 @@
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:  100%;
+    gap: 30px;
+    padding: 100px;
+}
+.section1 h2{
+    font-size: 36px;
+}
+.salam{
+    font-size: 14px;
+    color: gray;
+}
+.section1Bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  100%;
+    gap: 30px;
+}
+.section1LeftTop{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section1Left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.section1 img{
+    width: 100%;
+    transition: 0.4s ease;
+}
+.section1 img:hover ~ .hover{
+display: flex;
+}
+.hover{
+    position: absolute;
+    background: #f41068;
+    width: 200px;
+    z-index: 99;
+    top: 30px;
+    width: 80%;
+    left: 50px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 0.4s ease-in;
+    color: white;
+}
+.hover:hover{
+    display: flex;
+}

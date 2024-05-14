@@ -1,0 +1,45 @@
+.hero{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    gap: 50px;
+    background-image: -webkit-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+
+}
+.hero img{
+    width: 50%;
+}
+.heroRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.heroRight span{
+    font-size: 48px;
+}
+h1{
+    font-size: 48px;
+}
+.heroRight a{
+    padding: 10px 15px;
+}
+.heroRight a{
+    background:  white;
+    color: black;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.heroRight a:hover{
+    background: #fa2082;
+    color: white;
+}

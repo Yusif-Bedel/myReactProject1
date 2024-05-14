@@ -1,0 +1,49 @@
+.card img{
+    width: 250px;
+    height: 250px;
+    background: white;
+}
+.card img:hover ~ .hoveredCard{
+   display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    gap: 10px;
+    
+}
+.card h4{
+    color: white;
+}
+.card span{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.hoveredCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);;
+    position: absolute;
+    top: 35%;
+    left: 10px;
+    display: none;
+}
+.hoveredCard:hover{
+    display: flex;
+}
+.hoveredCard i{
+    padding: 7px 20px;
+    color: white;
+    transition: 0.4s linear;
+}
+.hoveredCard i:hover{
+background: white;
+color: black;
+}

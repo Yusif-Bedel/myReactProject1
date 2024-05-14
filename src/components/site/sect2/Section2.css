@@ -1,0 +1,44 @@
+.section2{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url("https://preview.colorlib.com/theme/shop/img/men-bg.jpg.webp");
+background-size: cover;
+}
+.s2Color{
+    width: 100%;
+    background-image: -webkit-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
+    background-size: cover; 
+    background-clip:border-box;
+    opacity: 0.9;
+}
+.s2Content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
+    background: transparent;
+    opacity: 1;
+}
+.s2Content h2{
+    font-size: 36px;
+    color: white;
+}
+.s2Content p{
+    font-size: 14px;
+    color: white;
+}
+.section2Bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
